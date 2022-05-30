@@ -1,8 +1,8 @@
 var titles = [
     "The 48 Laws of Power",
-    "Start with Why",
-    "The Art of War",
-    "The Diary of a Young Girl"
+    "Heart of Darkness",
+    "The Man in the High Castle",
+    "House of Cards"
 ];
 
 const btnOriginal = document.getElementById('Original');
@@ -13,19 +13,31 @@ const txtSorted = document.getElementById('show-text');
 function originalOrder() {
     titles = [
         "The 48 Laws of Power",
-        "Start with Why",
-        "The Art of War",
-        "The Diary of a Young Girl"
+        "Heart of Darkness",
+        "The Man In the High Castle",
+        "House of Cards"
     ];
     txtSorted.innerHTML = titles;
 }
 
 function alphaOrder() {
+    titles = [
+        "The 48 Laws of Power",
+        "Heart of Darkness",
+        "The Man In the High Castle",
+        "House of Cards"
+    ];
     titles.sort();
     txtSorted.innerHTML = titles;
 }
 
 function reverseOrder() {
+    titles = [
+        "The 48 Laws of Power",
+        "Heart of Darkness",
+        "The Man In the High Castle",
+        "House of Cards"
+    ];
     titles.reverse();
     txtSorted.innerHTML = titles;
 }

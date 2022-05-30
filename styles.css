@@ -11,12 +11,14 @@ html {
     box-sizing: border-box;
     height: 100%;
     overflow: hidden;
-    background-image: url(img.jpg);
+    background-image: url(img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-container {
@@ -24,6 +26,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-container {
